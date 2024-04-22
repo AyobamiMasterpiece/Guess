@@ -81,12 +81,12 @@ function GameScreen({ userNumber, gameOver }) {
         <View style={styles.hmm}>
           <View style={styles.kk}>
             <Button onpress={() => nextGuessHandler("higher")}>
-              <Ionicons name="md-remove" size={24} color={"white"}></Ionicons>
+              <Ionicons name="md-add" size={24} color={"white"}></Ionicons>
             </Button>
           </View>
           <View style={styles.kk}>
             <Button onpress={() => nextGuessHandler("lower")}>
-              <Ionicons name="md-add" size={24} color={"white"}></Ionicons>
+              <Ionicons name="md-remove" size={24} color={"white"}></Ionicons>
             </Button>
           </View>
         </View>
